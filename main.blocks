@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="@-~;,-t(F[0?].iEb97C" x="0" y="0"></block><block type="device_forever" id="Xv!U}6^(_;7BhNS72}!x" x="205" y="0"></block><block type="device_gesture_event" id="rjnmUaN/UV*k[rO~g(Ls" x="-3" y="134"><field name="NAME">Gesture.LogoUp</field><statement name="HANDLER"><block type="device_show_leds" id="J$`icyVDl4YK]irikKH)"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_pause" id="|%-~ux^DFWqt?6UIJ5!w"><value name="pause"><shadow type="timePicker" id="E}1gJHdg5Ltw^BX2DRro"><field name="ms">1000</field></shadow></value><next><block type="device_clear_display" id="HO.GN0(Fr8a|:yS/WW-c"></block></next></block></next></block></statement></block><block type="device_gesture_event" id="Ij^_4{borQVV)*rD/A.g" x="195" y="127"><field name="NAME">Gesture.LogoDown</field><statement name="HANDLER"><block type="basic_show_icon" id="Q{Y^!U$B`in6sZ@-aJ7A"><field name="i">IconNames.Sword</field><next><block type="device_pause" id="P(IU!Et@?L:^M,Jgj8d-"><value name="pause"><shadow type="timePicker" id="%*98Wx0Y^C0IUTH`gBek"><field name="ms">1000</field></shadow></value><next><block type="device_clear_display" id="{{cDeF?oIvY_erGXBpGq"></block></next></block></next></block></statement></block><block type="device_gesture_event" id="[74#Tq-abAl9;/7Qy{!~" x="612" y="106"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="device_show_leds" id="F5ha_q[S7LKI64[qITi@"><field name="LEDS">`
+        . # # # . 
+        . # . # . 
+        . # # . . 
+        . # . # . 
+        . # . # .
+        `</field><next><block type="device_pause" id="h16kM?^OUpx}7fA:u$[1"><value name="pause"><shadow type="timePicker" id="sISy,$Q`2tPSJ$KfJC!%"><field name="ms">1000</field></shadow></value></block></next></block></statement></block><block type="device_gesture_event" id="[HyH%weS=SRVZ!YH[j$$" x="396" y="119"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="device_show_leds" id="!%)?~~Wyvv_J+v^8DPc8"><field name="LEDS">`
+        . # . . . 
+        . # . . . 
+        . # . . . 
+        . # . . . 
+        . # # # .
+        `</field><next><block type="device_pause" id="^cF!K{|*.A7)@mJO*1Yh"><value name="pause"><shadow type="timePicker" id="fZj%9@lG#!HucHm*(O!="><field name="ms">1000</field></shadow></value><next><block type="device_clear_display" id="b9#r6pbkobU(0NaYzY7G"></block></next></block></next></block></statement></block><block type="cutebot_move_time" id="nFbi3k!ZlfJdW*ZYnL9p" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="14" y="644"><field name="dir">cuteBot.Direction.forward</field><value name="speed"><shadow type="math_number" id="F2qRfab2@{xW-i:7Dal!" disabled-reasons="MANUALLY_DISABLED"><field name="NUM">0</field></shadow></value><value name="time"><shadow type="math_number" id="cRRK)fvonto}gS!TOr0$" disabled-reasons="MANUALLY_DISABLED"><field name="NUM">0</field></shadow></value></block><block type="MotorRun" id="gF$kVhkgHdZv~oO}L6.4" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="214" y="685"><value name="lspeed"><shadow type="math_number_minmax" id="h7$],bUMVf7,bqrjNEG0" disabled-reasons="MANUALLY_DISABLED"><mutation min="-100" max="100" label="Lspeed" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><value name="rspeed"><shadow type="math_number_minmax" id=".-J?/|,uW,2CG2!9@Y~%" disabled-reasons="MANUALLY_DISABLED"><mutation min="-100" max="100" label="Rspeed" precision="0"></mutation><field name="SLIDER">0</field></shadow></value></block></xml>
